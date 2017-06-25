@@ -1,24 +1,28 @@
-# README
+# Web Push Notifications
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://eggman.tv/c/s-web-push-notifications
 
-Things you may want to cover:
+实现Web Push Notifications
 
-* Ruby version
+## 课程说明
 
-* System dependencies
+为了方便在每节课的代码间进行切换，该课程是通过git tag的方式来组织的，就是每节课对应一个git tag。
 
-* Configuration
+首先clone该项目
 
-* Database creation
+```shell
+$git clone git@github.com:eggmantv/tdd_in_action.git
+```
 
-* Database initialization
+切换tag
+```shell
+$cd tdd_in_action
 
-* How to run the test suite
+查看所有标签
+$git tag
+01
+02
+...
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+切换到第一节课的源码
+$git checkout 01
