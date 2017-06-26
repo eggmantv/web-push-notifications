@@ -2,27 +2,20 @@
 
 https://eggman.tv/c/s-web-push-notifications
 
-实现Web Push Notifications
+Web Push Notifications实战
 
-## 课程说明
+## 使用
 
-为了方便在每节课的代码间进行切换，该课程是通过git tag的方式来组织的，就是每节课对应一个git tag。
-
-首先clone该项目
+- 环境要求: Ruby 2.4 +, Rails 5.1 +  
+- 浏览器: Chrome / Firefox最新版
+- 科学上网
 
 ```shell
-$git clone git@github.com:eggmantv/tdd_in_action.git
+$ bundle
+$ rails db:migrate
+$ rails s
 ```
 
-切换tag
-```shell
-$cd tdd_in_action
+打开浏览器访问localhost:3000，打开你的开发者工具调试。
 
-查看所有标签
-$git tag
-01
-02
-...
-
-切换到第一节课的源码
-$git checkout 01
+> 这个源码中比实际课程中多了后台保存subscription信息的逻辑，以供大家参考。
